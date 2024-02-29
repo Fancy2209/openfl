@@ -1,4 +1,5 @@
 package openfl.utils;
+//Based on JooFlash https://github.com/CoreMedia/jangaroo-libs/blob/jooflash-4.1/jooflash/src/main/joo/flash/utils/describeType.as
 public function describeType(value:*):XML {
   var type:Class = value.$isClass ? value : value.self;
   // fake collection:
